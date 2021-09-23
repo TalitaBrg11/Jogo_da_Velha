@@ -1,0 +1,150 @@
+body{
+    text-align: center;
+    background-color: blue;
+}
+
+#titulo{
+  font-family: 'Shojumaru', cursive;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #d7dcea;
+    border: 3px solid #56a4db;
+    display: inline-block;
+}
+.o{
+    position: relative;
+}
+.o:after{
+    position: absolute;
+    content: "";
+    background-image: url("Images/escudo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 100px;
+    height: 80px;
+    background-size: contain;
+    top: 20px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.x{
+    position: relative;
+}
+.x:after{
+    position: absolute;
+    content: "";
+    background-image: url("Images/espada.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 100px;
+    height: 80px;
+    background-size: contain;
+    top: 20px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.players {
+
+  display: flex;
+  justify-content: center;
+  width: auto;
+  
+}
+
+.player {
+  font-family: 'Shojumaru', cursive;
+  color: black;
+  text-shadow: white 0.1em 0.1em 0.2em;
+  font-size: 10px;
+  margin:0 20px 20px 20px;
+  padding: 5px;
+  border-radius: 30px;
+  border: 3px solid #56a4db;
+  background-color: #d7dcea;
+}
+.score {
+  background-color: #56a4db;
+  border-radius: 50px;
+  padding: 3px;
+}
+  
+  .escudo::after {
+       content: url("Images/escudinho.png");
+      
+  }
+  
+  .espada::after {
+        content: url("Images/espadinha.png");
+        
+  }
+  
+  .square {
+    width: 120px;
+    height: 120px;
+    background-color:rgb(228, 228, 228);
+    display: inline-block;
+    border-radius: 15px;
+     }
+  
+  .o {
+    position: relative;
+  }
+  
+  
+   .o::after { 
+     position: absolute;
+    background-image: url("Images/escudo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 100px;
+    height: 80px;
+    background-size: contain;
+    top: 20px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+  } 
+  
+  .x {
+    position: relative;
+  }
+  
+   .x::after {
+    position: absolute;
+    background-image: url("Images/espada.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 100px;
+    height: 80px;
+    background-size: contain;
+    top: 20px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+  } 
+  
+  button {
+    width: 190px;
+    padding: 15px;
+    font-weight: bolder;
+    border: solid, 2px, yellow;
+    background-color: #eeab1a;
+    border-radius: 10px;
+    font-family: 'Shojumaru', cursive;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color:yellow;
+  }
+  
+ 
